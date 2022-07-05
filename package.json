@@ -1,0 +1,21 @@
+{
+  "name": "massunban",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node deploy-commands.js",
+    "predev": "npm run prestart",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "xtasy",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "await": "^0.2.6",
+    "config": "^3.3.7",
+    "discord.js": "^13.8.1"
+  }
+}
